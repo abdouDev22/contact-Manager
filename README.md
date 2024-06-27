@@ -1,8 +1,37 @@
-# React + Vite
+# Contact-Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Qu'est-ce que Contact-Manager ?
 
-Currently, two official plugins are available:
+#### Ce projet consiste à développer une application web de gestion de contacts en utilisant React.js avec Vite comme outil de construction. L'application permettra aux utilisateurs d'ajouter, de modifier, de supprimer et de filtrer des contacts. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Installation
+
+```js
+npm install
+
+```
+
+
+## Lancer le projet
+
+#### Pour lancer le projet en mode développement :
+
+```js
+npm run dev
+```
+
+L'application sera accessible à l'adresse http://localhost:3000
+
+## Fonctionnalités
+
+Ajouter un contact
+Modifier un contact
+Supprimer un contact
+Filtrer les contacts
+Persister les contacts dans le localStorage
+
+## Auteurs
+
+### Abdourahman Abdillahi Abdi
+

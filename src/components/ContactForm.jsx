@@ -12,23 +12,34 @@ const ContactForm = ({ addContact }) => {
   };
 
   return (
+    <div className="contact-form">
+      <span className="circle one"></span>
+          <span className="circle two"></span>
+          <h1 className='title'>Gestion de Contacts</h1>
     <form onSubmit={handleSubmit}>
+    <div className="input-container">
       <input
+       className="input"
         type="text"
         placeholder="Nom"
         value={name}
         onChange={(e) => setName(e.target.value)}
         required
       />
+      </div>
+      <div className="input-container">
       <input
+       className="input"
         type="email"
         placeholder="Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
       />
-      <button type="submit">Ajouter</button>
+      </div>
+      <button className="btn" type="submit">Ajouter</button>
     </form>
+    </div>
   );
 };
 

@@ -26,11 +26,11 @@ L'application sera accessible à l'adresse http://localhost:5173/
 
 ## Fonctionnalités
 
-Ajouter un contact
-Modifier un contact
-Supprimer un contact
-Filtrer les contacts
-Persister les contacts dans le localStorage
+Ajouter un contact<br>
+Modifier un contact<br>
+Supprimer un contact<br>
+Filtrer les contacts<br>
+Persister les contacts dans le localStorage<br>
 
 ## Auteur
 

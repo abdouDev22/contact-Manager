@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ContactForm from './components/ContactForm';
 import ContactList from './components/ContactList';
+import './App.css';
 
 const App = () => {
   const [contacts, setContacts] = useState([]);
@@ -34,21 +35,36 @@ const App = () => {
   );
 
   return (
-    <div>
-      <h1>Gestion de Contacts</h1>
-      <ContactForm addContact={addContact} />
-      <input
-        type="text"
-        placeholder="Filtrer les contacts"
-        value={filter}
-        onChange={(e) => setFilter(e.target.value)}
-      />
-      <ContactList
-        contacts={filteredContacts}
-        updateContact={updateContact}
-        deleteContact={deleteContact}
-      />
-    </div>
+    < >
+      <span className="big-circle"></span>
+      <img src="../assets/shape.png" className="square" alt="" />
+
+      <div className="form">
+        <div className="contact-info">
+        <input
+          type="text"
+          
+          placeholder="Filtrer les contacts"
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
+        />
+          <ContactList
+
+            contacts={filteredContacts}
+            updateContact={updateContact}
+            deleteContact={deleteContact}
+          />
+        </div>
+
+        
+          
+      
+          <ContactForm addContact={addContact} />
+
+        </div>  
+      
+      
+    </>
   );
 };
 

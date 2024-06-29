@@ -32,7 +32,7 @@ const ContactItem = ({ contact, updateContact, deleteContact }) => {
           <button onClick={() => setIsEditing(true)}>Modifier</button>
         </>
       )}
-      <button onClick={() => deleteContact(contact.id)}>Supprimer</button>
+      <button  onClick={() => deleteContact(contact.id)}>Supprimer</button>
     </li>
   );
 };

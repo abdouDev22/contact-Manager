@@ -22,7 +22,7 @@ npm install
 npm run dev
 ```
 
-L'application sera accessible à l'adresse http://localhost:3000
+L'application sera accessible à l'adresse http://localhost:5173/
 
 ## Fonctionnalités
 
@@ -32,7 +32,7 @@ Supprimer un contact
 Filtrer les contacts
 Persister les contacts dans le localStorage
 
-## Auteurs
+## Auteur
 
 ### Abdourahman Abdillahi Abdi
 
